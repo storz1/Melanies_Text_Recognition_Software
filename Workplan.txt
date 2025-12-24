@@ -28,4 +28,3 @@ Folder: GIT
 	hier Links Bild und zugehöriger Ausschnitt, rechts Text, Kann durch akzeptieren des Vorschlags des Agents mittels enter oder mausklick korrigiert werden. Andere manuelle Eingriffe möglich
 	--> Copy paste von hier bzw korrektes abspeichern, Option direkt alle zugehörigen Files zu löschen (zu analysierender Text, analysierter Text, data_analysis_safe)
 	
-	

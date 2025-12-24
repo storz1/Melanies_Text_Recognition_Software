@@ -1,0 +1,31 @@
+Workplan Pipeline Melanies Text Recognition and Correction Software/UI
+
+
+1. generate File Structure for simple usage
+
+Folder: GIT
+	.exe file (Execution of analysation Software passiv)
+	.exe file (Execution of analysation Software aktiv --> kann ohne oder mit passiver Software vorher ausgeführt werden)
+	Folder: zu analysierender Text (Input kann pdf, png, jpg sein)
+	Folder: analysierter Text (Output: Text file)
+	Folder: data_analysis_safe (speicher für numpy Arrays und klump wie Dictionary )
+	Folder: Code
+
+
+2. Fülle passive Software mit Funktionalität, sodass sie funktioniert wie gewünscht
+	Verwandlung in jpg für mehrseitige pdf bzw png->jpt
+	Textextraction von mehreren Algorithmen
+	Wegschmeißen von irrellevant kleinen Texten (Überschrift, Seitenzahl etc)
+	Erkennung, ob englisch oder Deutsch mittels Agent
+	Textkorrektur englisch oder Deutsch (klassisch + eigener Dictionary)
+	Textausgabe als txt file und zugehöriger np.array welcher Status angibt (korrektes wort, vermutlich falsches wort) --> für jedes falsche Wort hat Agent vorschlag gespeichert
+
+
+3. Fülle aktive Software mit Funktionalität 
+	ruft UI auf
+	kann passive Software ausführen mit z.B nur einem der beiden Textextraktionsmechanismen, ohne Korrektur, ohne Agent
+	kann passiv verarbeiteten Text aufrufen zum verarbeiten
+	hier Links Bild und zugehöriger Ausschnitt, rechts Text, Kann durch akzeptieren des Vorschlags des Agents mittels enter oder mausklick korrigiert werden. Andere manuelle Eingriffe möglich
+	--> Copy paste von hier bzw korrektes abspeichern, Option direkt alle zugehörigen Files zu löschen (zu analysierender Text, analysierter Text, data_analysis_safe)
+	
+	
